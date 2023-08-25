@@ -3,7 +3,7 @@ spring:
     console:
       enabled: true
   datasource:
-    url: jdbc:h2:mem:nome_banco
+    url: jdbc:h2:mem:library
   jpa:
     show-sql: true
     properties:

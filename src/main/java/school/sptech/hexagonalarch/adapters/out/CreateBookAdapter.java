@@ -1,11 +1,13 @@
 package school.sptech.hexagonalarch.adapters.out;
 
+import org.springframework.stereotype.Component;
 import school.sptech.hexagonalarch.adapters.out.repository.BookRepository;
 import school.sptech.hexagonalarch.adapters.out.repository.entity.BookEntity;
 import school.sptech.hexagonalarch.adapters.out.repository.mapper.BookEntityMapper;
 import school.sptech.hexagonalarch.application.core.domain.Book;
 import school.sptech.hexagonalarch.application.core.ports.out.SaveBookOutputPort;
 
+@Component
 public class CreateBookAdapter implements SaveBookOutputPort {
 
     private final BookRepository bookRepository;
