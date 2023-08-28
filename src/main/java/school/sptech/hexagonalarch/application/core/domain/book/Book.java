@@ -1,4 +1,4 @@
-package school.sptech.hexagonalarch.application.core.domain;
+package school.sptech.hexagonalarch.application.core.domain.book;
 
 import java.time.LocalDate;
 

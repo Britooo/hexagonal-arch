@@ -2,7 +2,7 @@ package school.sptech.hexagonalarch.application.core.ports.in;
 
 import school.sptech.hexagonalarch.application.core.domain.book.Book;
 
-public interface CreateBookInputPort {
+public interface SearchBookByIdInputPort {
 
-    Book execute(Book book);
+    Book execute(Long id);
 }

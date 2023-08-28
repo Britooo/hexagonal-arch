@@ -6,4 +6,5 @@ import school.sptech.hexagonalarch.adapters.out.repository.entity.BookEntity;
 
 @Repository
 public interface BookRepository extends JpaRepository<BookEntity, Long> {
+    
 }
